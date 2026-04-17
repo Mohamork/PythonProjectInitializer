@@ -3,7 +3,7 @@ This is a script that reduces project creation time by automating :
   - Create a project folder
   - Create a virtual environment
   - Install modules
-  - Works on Windows, Linux and macOs
+  
 
 ## How to use
 - Run the script from the same directory you usually create your projects
@@ -23,5 +23,6 @@ The script will create a project folder and venv. No packages get installed.
 No problem. The script will create the project folder and the virtual environment. No packages get installed.
 
 
+Works on Windows, Linux and macOs
 
 
