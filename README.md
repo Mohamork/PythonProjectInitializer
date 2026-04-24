@@ -1,28 +1,27 @@
 # Project Description
 This is a script that reduces project creation time by automating :
-  - Create a project folder
+  - Create a project folder inside the parent folder for all of your projects
+  - Upgrade to latest version of pip
   - Create a virtual environment
   - Install modules
+  - Save installed modules in a new requirements.xt file
   
 
+## Before using the script
+  - Save to script in whichever folder you like. For example my_scripts
+  - On line 14 replace parent_folder = 'INSERT THE PARENT FOLDER FOR ALL YOUR PROJECTS HERE to a folder which you will like to create projects.
+  - Create an empty requirements.txt file in the same folder as the script. This is where you will type all requirements your project needs. The script will install modules from here.
+
 ## How to use
-- Run the script from the same directory you usually create your projects
-- From here a new subfolder is created including your virtual environment and optional modules.
+- Open a commandlineshell and run the script.
+- Type in your projects name,
 
-### How to automate module installation
-- Prepare the modules inside a requirements.txt file
-- Store the requirements.txt file inside the same directory where you usually create your projects.
+## Results
+- You will have a dedicate folder for your new project
+- Installed all the specified modules
+- A dedicated virtual environment for your project
+- A new requirements.txt file which you can commit along with the rest of your project.
    
-##### I have a requirements.txt with content
-The script will create a project folder, venv and install packages from the requirements.txt file.
-
-##### I have a requirements.txt but it's empty
-The script will create a project folder and venv. No packages get installed.
-
-##### I have no requirements.txt
-The script will create the project folder and the virtual environment. No packages get installed.
-
-
 **Works on Windows, Linux and macOs**
 
 
