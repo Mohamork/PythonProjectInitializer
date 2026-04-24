@@ -1,7 +1,7 @@
 # Project Description
 Automate the initial steps of your new project. A dedicated script to:
   - Create a project folder inside the parent folder for all of your projects
-  - Upgrade to latest version of pip
+  - Upgrade to the latest version of pip
   - Create a virtual environment
   - Install modules
   - Save installed modules in a new requirements.xt file
